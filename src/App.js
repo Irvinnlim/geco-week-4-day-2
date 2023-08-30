@@ -4,6 +4,7 @@ import SymmetricDifference from "./SymmetricDifference";
 import Tables from "./Tables";
 import FlattenedArray from "./FlattenedArray";
 import MergedArray from "./MergedArray";
+import SearchBox from "./SearchBox";
 
 const App = () => {
   const [arrayOfObjects, setArrayOfObjects] = useState([
@@ -58,6 +59,7 @@ const App = () => {
       <Tables />
       <FlattenedArray />
       <MergedArray />
+      <SearchBox />
     </div>
   );
 };
